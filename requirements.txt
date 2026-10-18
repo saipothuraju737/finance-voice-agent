@@ -1,0 +1,32 @@
+# Backend
+fastapi
+uvicorn[standard]
+requests
+python-dotenv
+numpy
+pandas
+plotly
+yfinance
+beautifulsoup4
+textblob
+google-generativeai
+
+# Retrieval (RAG)
+faiss-cpu
+sentence-transformers
+
+# Frontend + audio
+streamlit
+streamlit-audiorec
+SpeechRecognition
+gTTS
+
+# Tests
+pytest
+
+# ---- Optional (only needed for streamlit_app/app2.py and agents/voice_agent.py) ----
+# Needs PortAudio (Linux: sudo apt install libportaudio2) and ffmpeg for whisper
+# sounddevice
+# scipy
+# pyttsx3
+# openai-whisper
